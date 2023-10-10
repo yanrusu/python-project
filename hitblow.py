@@ -1,4 +1,3 @@
-# coding:utf-8
 import random
 import tkinter as tk
 import tkinter.messagebox as tmsg
