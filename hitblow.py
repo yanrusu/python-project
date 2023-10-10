@@ -10,13 +10,13 @@ def ButtonClick():
     if len(b) != 4:
         tmsg.showerror("錯誤", "請輸入四位數字")
     else:
-        a = True
+        x = True
         for i in range(4):
             if (b[i] <"0") or (b[i] > "9") :
                 tmsg.showerror("錯誤", "不是數字")
-                a = False
+                x = False
                 break
-        if a :
+        if x :
             isok = True
 
     if isok :
